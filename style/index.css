@@ -1,0 +1,110 @@
+body{
+    font-family: 'Courier New', monospace;
+}
+.nav_b{
+    float: right;
+    background-color: #fcb69a;
+    
+}
+.container-fluid{
+    background-color: #fcb69a;
+    height: 3%;
+    position: relative;
+    top: 0%;
+}
+.nav_b a{
+    margin: 0% 25px 0% 25px;
+}
+.navbar-brand{
+    border: #fcb69a 1px solid;
+    border-radius: 40%;
+    background-color: white;
+    padding: 5px;
+}
+.mahmoud{
+    float: right;
+    width: 97%;
+    height: 100%;
+    padding: 3% 0px 3% 0px;
+
+
+}
+.dot{
+    width:3%;
+}
+.content{
+    background-color: white;
+    text-align: center;
+}
+.content h1{
+    color: orange;
+    font-size: 180px;
+    text-transform: uppercase;
+}
+.content h2{
+    color: rgb(70, 22, 22);
+    font-size:90px;
+}
+.h{
+    font-size: 20px;
+    border: orange 1px solid;
+    border-radius: 30%;
+    width: 14%;
+    position: relative;
+    left: 15%;
+    background-color: orange;
+}
+.content h6{
+    position: relative;
+    left: -17px;
+    font-size: small;
+}
+.com{
+    position: relative;
+    left: -17px;
+}
+.com img{
+    margin: 1%;
+    background-color: rgb(185, 132, 62);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+
+
+
+/*ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ*/
+
+
+
+@media screen and (max-width:1200px){
+    body{
+        text-align: center;
+        overflow-y: scroll;
+    }
+    .mahmoud{
+        float: right;
+        width: 100%;
+    }
+    .content{
+        float: right;
+        text-align: center;
+    }
+    .h{
+        font-size: 20px;
+        border: orange 1px solid;
+        border-radius: 30%;
+        background-color: orange;
+        position: fixed;
+        right: 5%;
+    }
+    .dot{
+        position: fixed;
+        right: 0%;
+        visibility: hidden;
+    }
+
+
+}
